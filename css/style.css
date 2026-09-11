@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+
+.card {
+  display: flex;
+  width: 281px;
+  height: 122px;
+  border-radius: 20px;
+  border: 1px solid #2A2F37;
+  background-color: #1A1D22;
+  gap: 16px;
+
+}
+
+
+.title-name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title-prof {
+  font-size: 14px;
+  color: #9CA3AF;
+}
+
+.image {
+  width: 72px;
+  height: 72px;
+  border-radius: 100px;
+  align-self: center;
+  margin-left: 12px;
+
+}
+
+.button {
+  background-color: #00447C;
+  color: #F3F4F6;
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+
+.card-text-button {
+  width: 153px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: start;
+  justify-content: center;
+}
